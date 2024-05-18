@@ -1,12 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
 
-function getDynamicDimensions() {
-  return {
-    width: window.innerWidth,
-    height: window.innerHeight,
-  };
-}
-
 gsap.to(".box", {
   scrollTrigger: {
     trigger: "body",
